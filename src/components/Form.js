@@ -18,7 +18,7 @@ const Form = ({ block, returnGuessToApp }) => {
       <div className="form-group">
         <input type="number" style={{ paddingBottom: '10px' }} className="form-control" name="guess" placeholder="Enter your guess..." min="0" max="100" required/>
       </div>
-      <button type="submit" className="btn btn-success" style={{width:"100%"}}>GUESS</button>
+      <button type="submit" className="btn btn-success" style={{width:"100%"}}>GUESS NUMBER</button>
     </form>
   );
 };

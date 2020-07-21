@@ -1,6 +1,7 @@
 body {
-    background: -webkit-linear-gradient(left, #1e5799 0%, #ff3033 0%, #ff3033 38%, #207cca 70%, #7db9e8 100%);
-    background: linear-gradient(to right, #1e5799 0%, #ff3033 0%, #ff3033 38%, #207cca 70%, #7db9e8 100%);
+    background-image : url('./images/background.jpg');
+    background-repeat: no-repeat, repeat;
+    background-size: 100%;
 }
 .card{
     margin-top: 5%; 
@@ -35,11 +36,9 @@ hr{
 }
 
 .d {
-    background: -webkit-linear-gradient(right, #1e5799 0%, #ff3033 0%, #ff3033 38%, #207cca 70%, #7db9e8 100%);
-    background: linear-gradient(to left, #1e5799 0%, #ff3033 0%, #ff3033 38%, #207cca 70%, #7db9e8 100%);
+    background: rgb(112, 225, 233);
     color: white;
     font-family: Times, serif;
-    letter-spacing: px;
 }
 
 .w {
